@@ -1,0 +1,13 @@
+.inputArea, .qrArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputArea>button{
+    margin: 5px;
+}
+
+.inputArea>input{
+    margin: 3px;
+}

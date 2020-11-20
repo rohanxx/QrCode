@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'QrCode';
+  term = 'test';
+
+  onInputChange(value: string) {
+    this.term = value;
+  }
 }
